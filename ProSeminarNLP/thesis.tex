@@ -1,0 +1,195 @@
+\documentclass{thesisclass}
+
+%% Bibstyle %%
+\usepackage[numbers]{natbib}
+
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{placeins}
+\usepackage{graphicx}
+% My OWN PACKAGE %
+%\usepackage[latin1]{inputenc}%
+\graphicspath{ {images/} }
+
+%% Glossar %%
+\usepackage[toc,nonumberlist]{glossaries}
+\makeglossaries
+
+\lstset{language=Java,
+   basicstyle=\small,
+   keywordstyle=\color{blue!80!black!100},
+   identifierstyle=,
+   commentstyle=\color{green!50!black!100},
+   stringstyle=\ttfamily,
+   breaklines=true,
+   %numbers=left,
+   numberstyle=\small,
+   %frame=single,
+   backgroundcolor=\color{blue!3}
+} 
+\renewcommand*{\lstlistingname}{Quelltextausschnitt}
+
+
+% Based on thesisclass.cls of Timo Rohrberg, 2009
+% ----------------------------------------------------------------
+% Thesis - Main document
+% ----------------------------------------------------------------
+
+%% ---------------------------------
+%% | Information about the thesis  |
+%% ---------------------------------
+
+\newcommand{\myname}{Weinmann Philipp}
+\newcommand{\mytitle}{Maschinelles Lernen im Kontext der Programmierung natürlicher Sprachen}
+\newcommand{\myinstitute}{Institut f\"ur Programmstrukturen\\
+											und Datenorganisation (IPD)}
+											
+\newcommand{\advisor}{Dipl. Inform. Alexander Wachtel}
+
+%\newcommand{\timestart}{Startdatum}
+%\newcommand{\timeend}{Enddatum}
+\newcommand{\submissiontime}{[FILL OUT DATE HERE]}
+
+
+%% -------------------------------
+%% |  Information for PDF file   |
+%% -------------------------------
+\hypersetup{
+ pdfauthor={\myname},
+ pdftitle={\mytitle},
+ pdfsubject={Not set},
+ pdfkeywords={Not set}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here, main documents begins %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Describe separation hints here:
+\input{hyphenation}
+
+\selectlanguage{ngerman}
+\floatname{algorithm}{Algorithmus}
+
+\frontmatter
+\pagenumbering{roman}
+\include{titlepage}
+\blankpage
+\include{declaration}
+\blankpage
+
+%inspirational quote%
+\begin{figure}[h]
+  \center
+  \includegraphics[width=250px]{images/inspirobotQuote.jpg}
+  \caption{Quote generated through an AI \cite{inspirobot}}
+  \label{fig:Inspirational quote by AI}
+\end{figure}
+
+%% -------------------
+%% |   Directories   |
+%% -------------------
+\tableofcontents
+\cleardoublepage
+
+%\listoffigures
+%
+%\listoftables
+%\cleardoublepage
+
+% Glossary
+\input{glossary}
+
+%% -----------------
+%% |   Main part   |
+%% -----------------
+
+%Abstract%
+\chapter{Abstract}
+[TODO] Ein Abstract ist eine prägnante Inhaltsangabe, ein Abriss ohne Interpretation und Wertung einer wissenschaftlichen Arbeit.
+\newpage
+
+\section{Was ist Maschinelles Lernen}
+
+\begin{figure}[h]
+  \center
+  \includegraphics[width=\textwidth]{images/machineLearningInAI.jpg}
+  \caption{Veranschaulichung, wie Maschinelles Lernen einzuordnen ist. \cite{machineLearning1}}
+  \label{fig:Veranschaulichung, wie Maschinelles Lernen einzuordnen ist.}
+\end{figure}
+
+Maschinelles Lernen ist ein Teilbereich der Künstlichen Intelligenz. Es handelt sich also um eine Methode, die es Maschinen ermöglicht auf ihre Umwelt zu reagieren. Es ist jedoch oft schwierig wenn nicht unmöglich von Hand zu erkennen welche Reaktion das beste Ergebniss liefert, hier kommt Maschinelles Lernen ins Spiel. Dank statistischer Auswertungen 
+Teilbereich der KI. Benutzt unter anderem statistische Techniken um zu "lernen". Progressiv wird die effizienz eines Programms verbessert ohne das dieses explizit programmiert wird.
+\section{Aufkommen von Maschinellem Lernen}
+Kurze historische Zusammenfassung.
+\section{Anwendungen im Bereich der Informatik	}
+\begin{itemize}
+	\item Klassifizierung
+	\item Zusammenhänge erkennen
+\end{itemize}
+Diese Eigenschaften machen Maschine Learning zum perfekten Werkzeug für maschinelle Übersetzungen.
+\section{Maschine Translation}
+Die Anwendung von Software um Text von einer Sprache zur anderen zu übersetzen.
+\subsection{Verschiedene methoden der Maschine Translation}
+\begin{itemize}
+	\item Regelbasiert
+	\item Statistische Übersetzung
+	\item Neuronale Maschinenübersetzung
+\end{itemize}
+\newpage
+\section{Neuronale Maschinenübersetzung}
+\subsection{Neuronale Netze, Einführung}
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{images/DeepNeuralNetwork.jpg}
+  \caption{https://machine-learning-blog.de/2017/11/02/was-ist-deep-learning/}
+  \label{fig:Neuronales Netz}
+\end{figure}
+\subsection{In der Industrie}
+\begin{itemize}
+	\item Google
+	\item Microsoft
+	\item Yahoo
+\end{itemize}
+\subsection{Kuriositäten}
+\begin{itemize}
+	\item Facebook chatbots haben eine eigene Sprache erfinden um zu kommunizieren.
+	\item Google Translate hat eine Sprache erfunden die als Zwischensprache dient.
+\end{itemize}
+Fazit: Es ist schwer bzw unmöglich die Funktionsweise von Programmen die anhand von NN netzen entstanden sind zu verstehen oder zu kontrollieren.
+\section{Bewertung}
+
+\mainmatter
+\pagenumbering{arabic}
+
+Test der Arbeit \gls{IA} \cite{gassist} \\
+Test02 \cite{inspirobot}
+
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+
+\iflanguage{english}
+{\bibliographystyle{IEEEtranSA}}	% english style with numeric references
+{\bibliographystyle{alphadin}}	% german style
+
+\bibliography{thesis}
+
+
+%% ----------------
+%% |   Appendix   |
+%% ----------------
+%\cleardoublepage
+%\input{appendix}
+
+
+%% ----------------
+%% |   Glossary   |
+%% ----------------
+\cleardoublepage
+\printglossary
+
+\end{document}

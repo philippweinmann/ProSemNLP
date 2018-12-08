@@ -1,6 +1,10 @@
 \documentclass{article}
 
+\usepackage{apacite}
+\usepackage{biblatex}
 \usepackage{graphicx}
+
+\bibliography{Citations}
 
 \title{Maschinelles Lernen im Kontext der Programmierung natürlicher Sprachen}
 \date{WS 18/19}
@@ -8,14 +12,24 @@
 
 \begin{document}
 \maketitle
-\newpage
+
+\bibliographystyle(apacite)
+\bibliography{References}
+
+\newpage{}
+
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{images/inspirobotQuote.jpg}
+  \caption{quote generated through an AI}
+  \label{fig:Inspirational quote by AI \cite{inspirobot}}
+\end{figure}
 \section{Was ist Maschinelles Lernen}
 Teilbereich der KI. Benutzt unter anderem statistische Techniken um zu "lernen". Progressiv wird die effizienz eines Programms verbessert ohne das dieses explizit programmiert wird.
 \section{Aufkommen von Maschinellem Lernen}
 Kurze historische Zusammenfassung.
 \section{Anwendungen im Bereich der Informatik	}
 \begin{itemize}
-	\item Classifizierung
+	\item Klassifizierung
 	\item Zusammenhänge erkennen
 \end{itemize}
 Diese Eigenschaften machen Maschine Learning zum perfekten Werkzeug für maschinelle Übersetzungen.
@@ -30,9 +44,9 @@ Die Anwendung von Software um Text von einer Sprache zur anderen zu übersetzen.
 \newpage
 \section{Neuronale Maschinenübersetzung}
 \subsection{Neuronale Netze, Einführung}
-\begin{figure}[h!]
-  \includegraphics[width=\linewidth]{NeuronalesNetz.png}
-  \caption{https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6}
+\begin{figure}[h]
+  \includegraphics[width=\linewidth]{images/DeepNeuralNetwork.jpg}
+  \caption{https://machine-learning-blog.de/2017/11/02/was-ist-deep-learning/}
   \label{fig:Neuronales Netz}
 \end{figure}
 \subsection{In der Industrie}

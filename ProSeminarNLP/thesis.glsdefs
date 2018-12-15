@@ -1,0 +1,60 @@
+\ifglsentryexists{IA}{}%
+{%
+\gls@defglossaryentry{IA}%
+{%
+name={IA},%
+sort={IA},%
+type={main},%
+first={IA},%
+firstplural={IAs},%
+text={IA},%
+plural={IAs},%
+description={Intelligenter (persönlicher) Assistent},%
+descriptionplural={Intelligenter (persönlicher) Assistent},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{KI}{}%
+{%
+\gls@defglossaryentry{KI}%
+{%
+name={KI},%
+sort={KI},%
+type={main},%
+first={KI},%
+firstplural={KIs},%
+text={KI},%
+plural={KIs},%
+description={Jegliches Programm\, das es einer Maschine erm\"oglicht auf ihre Umwelt zu reagieren.},%
+descriptionplural={Jegliches Programm\, das es einer Maschine erm\"oglicht auf ihre Umwelt zu reagieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

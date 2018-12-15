@@ -3,6 +3,7 @@
 %% Bibstyle %%
 \usepackage[numbers]{natbib}
 
+\usepackage{float}
 \usepackage{multirow}
 \usepackage{listings}
 \usepackage{placeins}
@@ -80,12 +81,15 @@
 \blankpage
 
 %inspirational quote%
+%vspace centers the quote horizontally%
+\vspace*{\fill}
 \begin{figure}[h]
   \center
   \includegraphics[width=250px]{images/inspirobotQuote.jpg}
   \caption{Quote generated through an AI \cite{inspirobot}}
   \label{fig:Inspirational quote by AI}
 \end{figure}
+\vspace*{\fill}\clearpage
 
 %% -------------------
 %% |   Directories   |
@@ -112,18 +116,51 @@
 
 \section{Was ist Maschinelles Lernen}
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \center
   \includegraphics[width=\textwidth]{images/machineLearningInAI.jpg}
   \caption{Veranschaulichung, wie Maschinelles Lernen einzuordnen ist. \cite{machineLearning1}}
   \label{fig:Veranschaulichung, wie Maschinelles Lernen einzuordnen ist.}
 \end{figure}
 
-Maschinelles Lernen ist ein Teilbereich der Künstlichen Intelligenz. Es handelt sich also um eine Methode, die es Maschinen ermöglicht auf ihre Umwelt zu reagieren. Es ist jedoch oft schwierig wenn nicht unmöglich von Hand zu erkennen welche Reaktion das beste Ergebniss liefert, hier kommt Maschinelles Lernen ins Spiel. Dank statistischer Auswertungen 
-Teilbereich der KI. Benutzt unter anderem statistische Techniken um zu "lernen". Progressiv wird die effizienz eines Programms verbessert ohne das dieses explizit programmiert wird.
+Maschinelles Lernen ist ein Teilbereich der Künstlichen Intelligenz. Es handelt sich also um eine Methode, die es Maschinen ermöglicht auf ihre Umwelt zu reagieren. Es ist jedoch oft schwierig wenn nicht unmöglich von Hand zu erkennen welche Reaktion das beste Ergebniss liefert, hier kommt Maschinelles Lernen ins Spiel. Dank statistischer Auswertungen können Algorithmen entstehen, die (meißtens) korrekte Ergebnisse liefern, ohne das der Programmierer sich Gedanken machen muss, wie der Algorithmus letzendlich aufgebaut ist. \newline
+Während diese Methode der Datenauswertung schon lange bekannt ist  
+
+\subsection{Anwendungen im Bereich der Informatik}
+	In jedem Gebiet in dem große Mengen an Daten zur Verfügung stehen bzw. generiert werden können, ist Maschine Learning theoretisch anwendbar. Weil dies auf so ziemlich jeden Bereich der Informatik zutriff, wird so viel Hoffnung in diese Art von Algorithmen gesteckt. \newline
+Obwohl die Theorie hinter dieser Art der Datenauswertung seit langem bekannt ist, so finden mächtigere Algorithmen die meißt auf Neuronalen Netzen basieren erst seit kurzem verbreitete Anwendung dank verbesserter Rechenleistung. [CITATION NEEDED?]\newline
+	\newline Anwendungsbereiche sind zum Beispiel:
+\begin{itemize}
+	\item Gesichtserkennung
+	\item Spamerkennung (Email)
+	\item Spracherkennung
+	\item automatische Medikamentenentwicklung
+	\item Maschinelle Übersetzungen
+\end{itemize}
+In dieser Ausarbeitung werden wir uns insbesondere für Maschinelle Übersetzungen interessieren.
+
 \section{Aufkommen von Maschinellem Lernen}
-Kurze historische Zusammenfassung.
-\section{Anwendungen im Bereich der Informatik	}
+Maschinelles Lernen generell und insbesondere Neuronale Netze erfreuen sich seit einigen Jahren (stand 2018) großer Aufmerksamkeit. Der Grundstein für diese Verfahren wurde jedoch schon Ende des 18. Jahrhunderts von Thomas Bayes gelegt\cite{bayes1763essay}. \newline
+Während die ersten Anwendungen zum Größteil (meißt abstrakter) mathematischer natur waren\cite{legendre1805nouvelles}, so befasst sich schon 1913 das erste Paper mit der Analyse von Gedichten\cite{markov2006example}. Dort analysiert Markov ein Gedicht und bemerkt, das man Wahrscheinlichkeiten formulieren kann, welche Eigenschaften weitere Teile vom Text haben ohne das man die Gesamtheit des Gedichtes in betracht ziehen muss. \newline
+Ab der Zweiten hälfte des 20. Jahrhunderts wurden enddeckungen im bereich des Maschinellen Lernens gemacht, die heute jedem der mit dem fach zu tun hat bekannt sind. 1950 formuliert Alan Turing die Turing Learning Machine \cite{machinery1950computing}, ein Jahr später entwickeln und bauen zwei Wissenschaftler das erste Neuronale Netz\cite{snarc}. 1957 entwickelt Frank Rosenblatt den "perceptron"\cite{rosenblatt1958perceptron}, ein erstes Modell eines fully connected neural network.
+%original draft of a perceptron from Frank Rosenblatt%
+\begin{figure}[H]
+  \center
+  \includegraphics[width=\textwidth]{images/perceptron.png}
+  \caption{original draft of a perceptron in the original paper}
+  \label{fig:perceptron}
+\end{figure}
+Nachdem [CONTINUE HERE]
+
+\section{Neuronale Netze}
+	\subsection{Einführung}
+		Ein technischer Durchbruch ist oft "nur" die gelungene Nachahmung eines in der Natur vorkommenden Phänomens. Neuronale Netze kann man Vergleichen mit dem Versuch das menschliche Gehirn nachzubauen.[CITATION?] Während diese Unterfangen nicht oder nur teilweise gelungen sind, haben sich einige Nebenprodukte dieser Forschung als sehr nützlich erwiesen.
+Ein Neuronales Netz besteht aus Knoten die "künstliche Neuronen" genannt. Diese können auf verschiedene Weise miteinander verbunden sein. Diese Verbindungen werden oft "Synapsen" genannt. Jedes Neuron kann Signale empfangen und weiterleiten. Die Anzahl an Neuronen sowie die exakten Verbindungen bzw. die Information wann ein Signal mit welcher Stärke weitergeleitet wird stellt den Algorithmus dar.
+\begin{figure}[h]
+  		\includegraphics[width=\linewidth]{images/DeepNeuralNetwork.jpg}
+  		\caption{Layout eines Fully Connected Neuronalen Netzes. 	\cite{NeuronalesNetzImage} }
+  		\label{fig:Neuronales Netz}
+\end{figure}
 \begin{itemize}
 	\item Klassifizierung
 	\item Zusammenhänge erkennen
@@ -139,12 +176,6 @@ Die Anwendung von Software um Text von einer Sprache zur anderen zu übersetzen.
 \end{itemize}
 \newpage
 \section{Neuronale Maschinenübersetzung}
-\subsection{Neuronale Netze, Einführung}
-\begin{figure}[h]
-  \includegraphics[width=\linewidth]{images/DeepNeuralNetwork.jpg}
-  \caption{https://machine-learning-blog.de/2017/11/02/was-ist-deep-learning/}
-  \label{fig:Neuronales Netz}
-\end{figure}
 \subsection{In der Industrie}
 \begin{itemize}
 	\item Google

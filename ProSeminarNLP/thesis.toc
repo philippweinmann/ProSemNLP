@@ -1,0 +1,14 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\nonumberline Abstract}{ix}{chapter*.2}
+\contentsline {section}{\numberline {1}Was ist Maschinelles Lernen}{x}{section.0.1}
+\contentsline {section}{\numberline {2}Aufkommen von Maschinellem Lernen}{x}{section.0.2}
+\contentsline {section}{\numberline {3}Anwendungen im Bereich der Informatik}{x}{section.0.3}
+\contentsline {section}{\numberline {4}Maschine Translation}{x}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}Verschiedene methoden der Maschine Translation}{x}{subsection.0.4.1}
+\contentsline {section}{\numberline {5}Neuronale Maschinen\IeC {\"u}bersetzung}{xi}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Neuronale Netze, Einf\IeC {\"u}hrung}{xi}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}In der Industrie}{xi}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}Kuriosit\IeC {\"a}ten}{xi}{subsection.0.5.3}
+\contentsline {section}{\numberline {6}Bewertung}{xi}{section.0.6}
+\contentsline {chapter}{Literaturverzeichnis}{3}{section*.3}

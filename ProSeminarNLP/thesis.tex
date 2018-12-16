@@ -8,10 +8,13 @@
 \usepackage{listings}
 \usepackage{placeins}
 \usepackage{graphicx}
-% My OWN PACKAGE %
-%\usepackage[latin1]{inputenc}%
-\graphicspath{ {images/} }
+% My OWN PACKAGES %
+\usepackage{media9}
 
+%Predefined paths%
+\graphicspath{ {images/} }
+%My own predefined paths%
+\addmediapath{ {media/} }
 %% Glossar %%
 \usepackage[toc,nonumberlist]{glossaries}
 \makeglossaries
@@ -134,10 +137,70 @@ Obwohl die Theorie hinter dieser Art der Datenauswertung seit langem bekannt ist
 	\item Gesichtserkennung
 	\item Spamerkennung (Email)
 	\item Spracherkennung
+	\item Handschrifterkennung
 	\item automatische Medikamentenentwicklung
 	\item Maschinelle Übersetzungen
 \end{itemize}
+
 In dieser Ausarbeitung werden wir uns insbesondere für Maschinelle Übersetzungen interessieren.
+
+\subsection{Ein erstes Beispiel}
+	Hören sie sich dieses Beispiel an: \hyperlink{https://www.audioblocks.com/stock-audio/playground-children-playing.html}{audiofile}\newline
+	Sie erkennen sofort, das es sich hier um spielende kinder handelt.
+Unser Gehirn schafft es mit extremer Genauigkeit Komplexe geräusche zu erkennen und zu analysieren. Auch wenn wir nicht erkennen was jedes einzelne Kind ruft, so wissen wir instinktiv das es sich um Kinder handelt.
+Schauen wir uns einmal die Wellenfunktion eines Abschnittes dieses Audiofile an:
+\begin{figure}[h!]
+\includegraphics[width=\textwidth]{images/KidsPlaying.png}
+  \caption{Audiofile Spielende Kinder \cite{kidsPlaying}}
+  \label{fig:Audiofile Spielende Kinder}
+\end{figure}
+
+Vergleichen wir dieses mit der Wellenfunktion eines PressluftHammers:
+\begin{figure}[h!]
+\includegraphics[width=\textwidth]{images/jackhammer.png}
+  \caption{Audiofile eines pressluftHammers \cite{pressluftHammer}}
+  \label{fig:Audiofile pressluftHammer}
+\end{figure}
+
+Wir bemerken einige klare Unterschiede. Falls wir nun ein Programm schreiben wollen, das erkennt welches erkennen kann ob ein audiofile eher spielende Kinder oder das Geräusch eines Presslufthammers enthält, so können wir Anhand der Wellenfunktion dieser Geräusche einige Ansätze herausfolgern. Wir bemerken zum Beispiel, das es bei kreischenden Kindern deutlich mehr ausreißer gibt als bei dem Geräusch eines Presslufthammers. Wir könnten also ein Programm schreiben, das den Durchschnitt aller Varianzen berechnet.
+Dies würde etwa so aussehen:
+\newpage
+\begin{lstlisting}
+    String classify(int[] audiofile) {
+        	int varianz = getVarianz(audiofile);
+			if (varianz > (spielkinderDurchschnittsVarianz + pressluftHammerDurchschnittsVarianz) / 2)){
+				return "SpielendeKinder";
+			} else {
+				return "PressluftHammer";
+			}
+    }   
+\end{lstlisting}
+
+Man bemerkt jedoch, das man hierfür schon wissen muss, welchen Wert die Varianzen von spielenden Kindern bzw von Presslufthammern im Durchnitt annehmen. Dazu braucht man einen großen Datensatz an AudioDaten, bei denen man weiß um welche Geräusche es sich handelt. Falls diese Vorhanden sind, kann man folgendes Programm schreiben, welches den Durchschnittswert der Varianz für die jeweilige Kategorie ermittelt:
+
+\begin{lstlisting}
+int mittelwertVarianz = (spielkinderDurchschnittVarianz + pressluftHammerDurchschnittVarianz) / 2);
+    String classify(int[] audiofile, String category) {
+        	int varianz = getVarianz(audiofile);
+			if (varianz > mittelwertVarianz){
+				updateVarianzen(varianz, category);				
+				return "SpielendeKinder";
+			} else {
+				updateVarianzen(varianz, category);
+				return "PressluftHammer";
+			}
+    }   
+void updateVarianzen(int varianz, String category) {
+	if(category.equals(spielendeKinder)) {
+		spielendeKindervarianzen.add(varianz);
+	else {
+		pressluftHammerarianzen.add(varianz);
+	}
+}
+\end{lstlisting}
+
+Man bemerkt, das dieses Programm noch immer ermittelt, welcher Kategorie die Audiofiles angehören. Daher kann es, falls bekannt ist um welches der beiden Kategorien es sich handelt weiterverwendet werden. Die Durschnittsvarianzen werden damit mit jedem neuen Audiofile präziser, das programm lernt mit der Zeit. Dies ist ein Beispiel sehr rudimentären Maschinellem Lernen.\newline
+Während dieses Programm sehr einfach ist, so gibt es weitaus mächtigere programme, in denen der Algorithmus nicht nur den Wert einer Variablen erkennt, sondern auch de Kriterien zur Unterscheidung zwischen Kategorien oder sogar Kategorien selber ermittelt.
 
 \section{Aufkommen von Maschinellem Lernen}
 Maschinelles Lernen generell und insbesondere Neuronale Netze erfreuen sich seit einigen Jahren (stand 2018) großer Aufmerksamkeit. Der Grundstein für diese Verfahren wurde jedoch schon Ende des 18. Jahrhunderts von Thomas Bayes gelegt\cite{bayes1763essay}. \newline
@@ -152,15 +215,23 @@ Ab der Zweiten hälfte des 20. Jahrhunderts wurden enddeckungen im bereich des M
 \end{figure}
 Nachdem [CONTINUE HERE]
 
-\section{Neuronale Netze}
+\section{Künstliche Neuronale Netze}
 	\subsection{Einführung}
-		Ein technischer Durchbruch ist oft "nur" die gelungene Nachahmung eines in der Natur vorkommenden Phänomens. Neuronale Netze kann man Vergleichen mit dem Versuch das menschliche Gehirn nachzubauen.[CITATION?] Während diese Unterfangen nicht oder nur teilweise gelungen sind, haben sich einige Nebenprodukte dieser Forschung als sehr nützlich erwiesen.
-Ein Neuronales Netz besteht aus Knoten die "künstliche Neuronen" genannt. Diese können auf verschiedene Weise miteinander verbunden sein. Diese Verbindungen werden oft "Synapsen" genannt. Jedes Neuron kann Signale empfangen und weiterleiten. Die Anzahl an Neuronen sowie die exakten Verbindungen bzw. die Information wann ein Signal mit welcher Stärke weitergeleitet wird stellt den Algorithmus dar.
-\begin{figure}[h]
+		[UNINTERESSANT? NIMMT VIEL ZU VIEL PLATZ EIN; JEDER DER DAS LIEST WEIß WIE EIN NN IM PRINZIP AUFGEBAUT IST]
+Ein technischer Durchbruch ist oft "nur" die gelungene Nachahmung eines in der Natur vorkommenden Phänomens. Neuronale Netze kann man Vergleichen mit dem Versuch das menschliche Gehirn nachzubauen.[CITATION?] Während diese Unterfangen nicht oder nur teilweise gelungen sind, haben sich einige Nebenprodukte dieser Forschung als sehr nützlich erwiesen.
+Ein Neuronales Netz besteht aus Knoten die "künstliche Neuronen" genannt. Diese können auf verschiedene Weise miteinander verbunden sein. Diese Verbindungen werden oft Synapsen genannt. Jedes Neuron kann Signale empfangen und weiterleiten. Der Graph der gebildet wird nennt man die Topologie des Neuronalen Netzes.
+
+%image of a Fully connected Neural Network%
+\begin{figure}[H]
   		\includegraphics[width=\linewidth]{images/DeepNeuralNetwork.jpg}
-  		\caption{Layout eines Fully Connected Neuronalen Netzes. 	\cite{NeuronalesNetzImage} }
+  		\caption{Topologie eines Fully Connected Feed Forward Neuronalen Netzes. 	\cite{NeuronalesNetzImage} }
   		\label{fig:Neuronales Netz}
 \end{figure}
+
+Neuronen werden meißt in Schichten zusammengefasst, die Stufen des Neuronalen Netzes darstellt, die mithilfe der Breitensuche bestimmt werden können.
+
+[AB HIER WIEDER?]
+Wie in unserem Beispiel erwähnt, 
 \begin{itemize}
 	\item Klassifizierung
 	\item Zusammenhänge erkennen
@@ -176,6 +247,12 @@ Die Anwendung von Software um Text von einer Sprache zur anderen zu übersetzen.
 \end{itemize}
 \newpage
 \section{Neuronale Maschinenübersetzung}
+\begin{itemize}
+	\item Recurrent Neural Networks
+		[Warum gerade diese?]
+		[Elman Network, Jordan Netzwerk, Hopfield Network,...]
+	\item 
+\end{itemize}
 \subsection{In der Industrie}
 \begin{itemize}
 	\item Google

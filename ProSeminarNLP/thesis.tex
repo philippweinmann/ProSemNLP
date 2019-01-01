@@ -70,7 +70,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
-% Describe separation hints here:
+% Describe separation hints here: %
 \input{hyphenation}
 
 \selectlanguage{ngerman}
@@ -89,7 +89,7 @@
 \begin{figure}[h]
   \center
   \includegraphics[width=250px]{images/inspirobotQuote.jpg}
-  \caption{Quote generated through an AI \cite{inspirobot}}
+  \caption{Quote die von einer \gls{KI} generiert worden ist. \textit{Die Resultate sind noch nicht zufriedenstellend} \cite{inspirobot}}
   \label{fig:Inspirational quote by AI}
 \end{figure}
 \vspace*{\fill}\clearpage
@@ -117,7 +117,7 @@
 [TODO] Ein Abstract ist eine prägnante Inhaltsangabe, ein Abriss ohne Interpretation und Wertung einer wissenschaftlichen Arbeit.
 \newpage
 
-\section{Was ist Maschinelles Lernen}
+\section{\textbf{Einleitung}}
 
 \begin{figure}[h!]
   \center
@@ -126,12 +126,11 @@
   \label{fig:Veranschaulichung, wie Maschinelles Lernen einzuordnen ist.}
 \end{figure}
 
-Maschinelles Lernen ist ein Teilbereich der Künstlichen Intelligenz. Es handelt sich also um eine Methode, die es Maschinen ermöglicht auf ihre Umwelt zu reagieren. Es ist jedoch oft schwierig wenn nicht unmöglich von Hand zu erkennen welche Reaktion das beste Ergebniss liefert, hier kommt Maschinelles Lernen ins Spiel. Dank statistischer Auswertungen können Algorithmen entstehen, die (meißtens) korrekte Ergebnisse liefern, ohne das der Programmierer sich Gedanken machen muss, wie der Algorithmus letzendlich aufgebaut ist. \newline
-Während diese Methode der Datenauswertung schon lange bekannt ist  
+Maschinelles Lernen(\gls{ML}) ist ein Teilbereich der K\"unstlichen Intelligenz(\gls{KI}). Es handelt sich also um eine Methode, die es Maschinen erm\"oglicht auf ihre Umwelt zu reagieren. Es ist jedoch oft schwierig wenn nicht unm\"oglich von Hand zu erkennen welche Reaktion das beste Ergebniss liefert, hier kommt Maschinelles Lernen ins Spiel. Dank statistischer Auswertungen k\"onnen Algorithmen entstehen, die mit einer gewissen Wahrscheinlichkeit korrekte Ergebnisse liefern, ohne das der Programmierer sich Gedanken machen muss, wie der Algorithmus letzendlich aufgebaut ist. \newline
 
 \subsection{Anwendungen im Bereich der Informatik}
-	In jedem Gebiet in dem große Mengen an Daten zur Verfügung stehen bzw. generiert werden können, ist Maschine Learning theoretisch anwendbar. Weil dies auf so ziemlich jeden Bereich der Informatik zutriff, wird so viel Hoffnung in diese Art von Algorithmen gesteckt. \newline
-Obwohl die Theorie hinter dieser Art der Datenauswertung seit langem bekannt ist, so finden mächtigere Algorithmen die meißt auf Neuronalen Netzen basieren erst seit kurzem verbreitete Anwendung dank verbesserter Rechenleistung. [CITATION NEEDED?]\newline
+	In jedem Gebiet in dem große Mengen an Daten zur Verf\"ugung stehen bzw. generiert werden können, ist \gls{ML} theoretisch anwendbar. Weil dies auf so ziemlich jeden Bereich der Informatik zutriff, erhofft man sich große Fortschitte von dieser neuen Technologie. \newline
+Obwohl die Theorie hinter dieser Art der Datenauswertung seit langem bekannt ist, so finden m\"achtigere Algorithmen die meißt auf Neuronalen Netzen basieren erst seit kurzem verbreitete Anwendung dank verbesserter Rechenleistung. \cite{DBLP:journals/corr/abs-1803-08971} \newline
 	\newline Anwendungsbereiche sind zum Beispiel:
 \begin{itemize}
 	\item Gesichtserkennung
@@ -146,24 +145,23 @@ In dieser Ausarbeitung werden wir uns insbesondere für Maschinelle Übersetzung
 
 \subsection{Ein erstes Beispiel}
 	Hören sie sich dieses Beispiel an: \hyperlink{https://www.audioblocks.com/stock-audio/playground-children-playing.html}{audiofile}\newline
-	Sie erkennen sofort, das es sich hier um spielende kinder handelt.
+	Sie erkennen sofort, das es sich hier um spielende Kinder handelt.
 Unser Gehirn schafft es mit extremer Genauigkeit Komplexe geräusche zu erkennen und zu analysieren. Auch wenn wir nicht erkennen was jedes einzelne Kind ruft, so wissen wir instinktiv das es sich um Kinder handelt.
 Schauen wir uns einmal die Wellenfunktion eines Abschnittes dieses Audiofile an:
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{images/KidsPlaying.png}
-  \caption{Audiofile Spielende Kinder \cite{kidsPlaying}}
+  \caption{Audiofile Spielende Kinder. Luftdruck/Umgebungsdruck in Funktion der Zeit. \cite{kidsPlaying}}
   \label{fig:Audiofile Spielende Kinder}
 \end{figure}
 
 Vergleichen wir dieses mit der Wellenfunktion eines PressluftHammers:
 \begin{figure}[h!]
 \includegraphics[width=\textwidth]{images/jackhammer.png}
-  \caption{Audiofile eines pressluftHammers \cite{pressluftHammer}}
+  \caption{Audiofile eines pressluftHammers. Luftdruck/Umgebungsdruck in Funktion der Zeit. \cite{pressluftHammer}}
   \label{fig:Audiofile pressluftHammer}
 \end{figure}
 
-Wir bemerken einige klare Unterschiede. Falls wir nun ein Programm schreiben wollen, das erkennt welches erkennen kann ob ein audiofile eher spielende Kinder oder das Geräusch eines Presslufthammers enthält, so können wir Anhand der Wellenfunktion dieser Geräusche einige Ansätze herausfolgern. Wir bemerken zum Beispiel, das es bei kreischenden Kindern deutlich mehr ausreißer gibt als bei dem Geräusch eines Presslufthammers. Wir könnten also ein Programm schreiben, das den Durchschnitt aller Varianzen berechnet.
-Dies würde etwa so aussehen:
+Wir bemerken einige klare Unterschiede. Falls wir nun ein Programm schreiben wollen, das erkennt welches erkennen kann ob ein audiofile eher spielende Kinder oder das Geräusch eines Presslufthammers enthält, so können wir Anhand der Wellenfunktion dieser Geräusche einige Ansätze herausfolgern. Wir bemerken zum Beispiel, das es bei kreischenden Kindern deutlich mehr ausreißer gibt als bei dem Geräusch eines Presslufthammers. Wir könnten also ein Programm schreiben, das ein Audiofile nach der Standartabweichung der Varianz berechnet.
 \newpage
 \begin{lstlisting}
     String classify(int[] audiofile) {

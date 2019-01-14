@@ -3,27 +3,27 @@
 \BOOKMARK [1][-]{section.0.1}{1 Einleitung}{chapter*.2}% 3
 \BOOKMARK [2][-]{subsection.0.1.1}{1.1 Anwendungen im Bereich der Informatik}{section.0.1}% 4
 \BOOKMARK [2][-]{subsection.0.1.2}{1.2 Ein erstes Beispiel}{section.0.1}% 5
-\BOOKMARK [1][-]{section.0.2}{2 Aufkommen von Maschinellem Lernen}{chapter*.2}% 6
-\BOOKMARK [1][-]{section.0.3}{3 Künstliche Neuronale Netze}{chapter*.2}% 7
-\BOOKMARK [2][-]{subsection.0.3.1}{3.1 Einführung}{section.0.3}% 8
-\BOOKMARK [2][-]{subsection.0.3.2}{3.2 propagation function}{section.0.3}% 9
-\BOOKMARK [2][-]{subsection.0.3.3}{3.3 sigmoidfunction}{section.0.3}% 10
-\BOOKMARK [3][-]{subsubsection.0.3.3.1}{3.3.1 Weights and Biases}{subsection.0.3.3}% 11
-\BOOKMARK [2][-]{subsection.0.3.4}{3.4 Fully Connected Layers}{section.0.3}% 12
-\BOOKMARK [2][-]{subsection.0.3.5}{3.5 Convolution}{section.0.3}% 13
-\BOOKMARK [2][-]{subsection.0.3.6}{3.6 Pooling}{section.0.3}% 14
-\BOOKMARK [2][-]{subsection.0.3.7}{3.7 Reccurence}{section.0.3}% 15
-\BOOKMARK [2][-]{subsection.0.3.8}{3.8 Training of a NN}{section.0.3}% 16
-\BOOKMARK [2][-]{subsection.0.3.9}{3.9 Backpropagation}{section.0.3}% 17
-\BOOKMARK [3][-]{subsubsection.0.3.9.1}{3.9.1 Gradient descent}{subsection.0.3.9}% 18
-\BOOKMARK [2][-]{subsection.0.3.10}{3.10 Limitationen von Neuronalen Netzen}{section.0.3}% 19
-\BOOKMARK [3][-]{subsubsection.0.3.10.1}{3.10.1 Computational Power}{subsection.0.3.10}% 20
-\BOOKMARK [3][-]{subsubsection.0.3.10.2}{3.10.2 Debugging}{subsection.0.3.10}% 21
-\BOOKMARK [3][-]{subsubsection.0.3.10.3}{3.10.3 Kontrollverlust\(Skynet\)}{subsection.0.3.10}% 22
-\BOOKMARK [1][-]{section.0.4}{4 Maschine Translation}{chapter*.2}% 23
-\BOOKMARK [2][-]{subsection.0.4.1}{4.1 Verschiedene methoden der Maschine Translation}{section.0.4}% 24
-\BOOKMARK [1][-]{section.0.5}{5 Neuronale Maschinenübersetzung}{chapter*.2}% 25
-\BOOKMARK [2][-]{subsection.0.5.1}{5.1 In der Industrie}{section.0.5}% 26
-\BOOKMARK [2][-]{subsection.0.5.2}{5.2 Kuriositäten}{section.0.5}% 27
-\BOOKMARK [1][-]{section.0.6}{6 Bewertung}{chapter*.2}% 28
-\BOOKMARK [0][]{section*.3}{Literaturverzeichnis}{}% 29
+\BOOKMARK [2][-]{subsection.0.1.3}{1.3 Aufkommen von Maschinellem Lernen}{section.0.1}% 6
+\BOOKMARK [1][-]{section.0.2}{2 K\374nstliche Neuronale Netze}{chapter*.2}% 7
+\BOOKMARK [2][-]{subsection.0.2.1}{2.1 propagation function}{section.0.2}% 8
+\BOOKMARK [2][-]{subsection.0.2.2}{2.2 sigmoidfunction}{section.0.2}% 9
+\BOOKMARK [3][-]{subsubsection.0.2.2.1}{2.2.1 Weights and Biases}{subsection.0.2.2}% 10
+\BOOKMARK [2][-]{subsection.0.2.3}{2.3 Fully Connected Layers}{section.0.2}% 11
+\BOOKMARK [2][-]{subsection.0.2.4}{2.4 Convolution}{section.0.2}% 12
+\BOOKMARK [2][-]{subsection.0.2.5}{2.5 Pooling}{section.0.2}% 13
+\BOOKMARK [2][-]{subsection.0.2.6}{2.6 Reccurence}{section.0.2}% 14
+\BOOKMARK [2][-]{subsection.0.2.7}{2.7 Training of a NN}{section.0.2}% 15
+\BOOKMARK [2][-]{subsection.0.2.8}{2.8 Backpropagation}{section.0.2}% 16
+\BOOKMARK [3][-]{subsubsection.0.2.8.1}{2.8.1 Gradient descent}{subsection.0.2.8}% 17
+\BOOKMARK [2][-]{subsection.0.2.9}{2.9 Limitationen von Neuronalen Netzen}{section.0.2}% 18
+\BOOKMARK [3][-]{subsubsection.0.2.9.1}{2.9.1 Computational Power}{subsection.0.2.9}% 19
+\BOOKMARK [3][-]{subsubsection.0.2.9.2}{2.9.2 Debugging}{subsection.0.2.9}% 20
+\BOOKMARK [3][-]{subsubsection.0.2.9.3}{2.9.3 Kontrollverlust\(Skynet\)}{subsection.0.2.9}% 21
+\BOOKMARK [1][-]{section.0.3}{3 Maschine Translation}{chapter*.2}% 22
+\BOOKMARK [2][-]{subsection.0.3.1}{3.1 Verschiedene methoden der Maschine Translation}{section.0.3}% 23
+\BOOKMARK [1][-]{section.0.4}{4 Neuronale Maschinen\374bersetzung}{chapter*.2}% 24
+\BOOKMARK [2][-]{subsection.0.4.1}{4.1 In der Industrie}{section.0.4}% 25
+\BOOKMARK [2][-]{subsection.0.4.2}{4.2 Kuriosit\344ten}{section.0.4}% 26
+\BOOKMARK [1][-]{section.0.5}{5 Bewertung}{chapter*.2}% 27
+\BOOKMARK [0][]{section*.3}{Literaturverzeichnis}{}% 28
+\BOOKMARK [0][]{section*.5}{Glossar}{}% 29

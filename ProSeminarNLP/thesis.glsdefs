@@ -58,19 +58,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{ML}{}%
+\ifglsentryexists{MaschinellesLernen}{}%
 {%
-\gls@defglossaryentry{ML}%
+\gls@defglossaryentry{MaschinellesLernen}%
 {%
-name={Machinelles Lernen},%
-sort={Machinelles Lernen},%
+name={ML},%
+sort={ML},%
 type={main},%
-first={Machinelles Lernen},%
-firstplural={Machinelles Lernens},%
-text={Machinelles Lernen},%
-plural={Machinelles Lernens},%
-description={Künstliche generierung von Wissen aus Erfahrung.},%
-descriptionplural={Künstliche generierung von Wissen aus Erfahrung.},%
+first={ML},%
+firstplural={MLs},%
+text={ML},%
+plural={MLs},%
+description={Maschinelles Lernen\, künstliche generierung von Wissen aus Erfahrung.},%
+descriptionplural={Maschinelles Lernen\, künstliche generierung von Wissen aus Erfahrung.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -161,6 +161,36 @@ text={Recurrent Neural Network},%
 plural={Recurrent Neural Networks},%
 description={Neuronales Netz},%
 descriptionplural={Neuronales Netz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{test}{}%
+{%
+\gls@defglossaryentry{test}%
+{%
+name={testosterone},%
+sort={testosterone},%
+type={main},%
+first={testosterone},%
+firstplural={testosterones},%
+text={testosterone},%
+plural={testosterones},%
+description={itworks},%
+descriptionplural={itworks},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

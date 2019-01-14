@@ -4,27 +4,27 @@
 \contentsline {section}{\numberline {1}\textbf {Einleitung}}{x}{section.0.1}
 \contentsline {subsection}{\numberline {1.1}Anwendungen im Bereich der Informatik}{x}{subsection.0.1.1}
 \contentsline {subsection}{\numberline {1.2}Ein erstes Beispiel}{xi}{subsection.0.1.2}
-\contentsline {section}{\numberline {2}Aufkommen von Maschinellem Lernen}{xii}{section.0.2}
-\contentsline {section}{\numberline {3}Künstliche Neuronale Netze}{xiii}{section.0.3}
-\contentsline {subsection}{\numberline {3.1}Einführung}{xiii}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {3.2}propagation function}{xv}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {3.3}sigmoidfunction}{xv}{subsection.0.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Weights and Biases}{xv}{subsubsection.0.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Fully Connected Layers}{xv}{subsection.0.3.4}
-\contentsline {subsection}{\numberline {3.5}Convolution}{xv}{subsection.0.3.5}
-\contentsline {subsection}{\numberline {3.6}Pooling}{xv}{subsection.0.3.6}
-\contentsline {subsection}{\numberline {3.7}Reccurence}{xv}{subsection.0.3.7}
-\contentsline {subsection}{\numberline {3.8}Training of a NN}{xv}{subsection.0.3.8}
-\contentsline {subsection}{\numberline {3.9}Backpropagation}{xv}{subsection.0.3.9}
-\contentsline {subsubsection}{\numberline {3.9.1}Gradient descent}{xv}{subsubsection.0.3.9.1}
-\contentsline {subsection}{\numberline {3.10}Limitationen von Neuronalen Netzen}{xv}{subsection.0.3.10}
-\contentsline {subsubsection}{\numberline {3.10.1}Computational Power}{xv}{subsubsection.0.3.10.1}
-\contentsline {subsubsection}{\numberline {3.10.2}Debugging}{xv}{subsubsection.0.3.10.2}
-\contentsline {subsubsection}{\numberline {3.10.3}Kontrollverlust(Skynet)}{xv}{subsubsection.0.3.10.3}
-\contentsline {section}{\numberline {4}Maschine Translation}{xv}{section.0.4}
-\contentsline {subsection}{\numberline {4.1}Verschiedene methoden der Maschine Translation}{xv}{subsection.0.4.1}
-\contentsline {section}{\numberline {5}Neuronale Maschinenübersetzung}{xvi}{section.0.5}
-\contentsline {subsection}{\numberline {5.1}In der Industrie}{xvi}{subsection.0.5.1}
-\contentsline {subsection}{\numberline {5.2}Kuriositäten}{xvi}{subsection.0.5.2}
-\contentsline {section}{\numberline {6}Bewertung}{xvi}{section.0.6}
+\contentsline {subsection}{\numberline {1.3}Aufkommen von Maschinellem Lernen}{xii}{subsection.0.1.3}
+\contentsline {section}{\numberline {2}K\IeC {\"u}nstliche Neuronale Netze}{xiii}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}propagation function}{xv}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {2.2}sigmoidfunction}{xv}{subsection.0.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Weights and Biases}{xv}{subsubsection.0.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Fully Connected Layers}{xv}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {2.4}Convolution}{xv}{subsection.0.2.4}
+\contentsline {subsection}{\numberline {2.5}Pooling}{xv}{subsection.0.2.5}
+\contentsline {subsection}{\numberline {2.6}Reccurence}{xv}{subsection.0.2.6}
+\contentsline {subsection}{\numberline {2.7}Training of a NN}{xv}{subsection.0.2.7}
+\contentsline {subsection}{\numberline {2.8}Backpropagation}{xv}{subsection.0.2.8}
+\contentsline {subsubsection}{\numberline {2.8.1}Gradient descent}{xv}{subsubsection.0.2.8.1}
+\contentsline {subsection}{\numberline {2.9}Limitationen von Neuronalen Netzen}{xv}{subsection.0.2.9}
+\contentsline {subsubsection}{\numberline {2.9.1}Computational Power}{xv}{subsubsection.0.2.9.1}
+\contentsline {subsubsection}{\numberline {2.9.2}Debugging}{xv}{subsubsection.0.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.3}Kontrollverlust(Skynet)}{xv}{subsubsection.0.2.9.3}
+\contentsline {section}{\numberline {3}Maschine Translation}{xv}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Verschiedene methoden der Maschine Translation}{xv}{subsection.0.3.1}
+\contentsline {section}{\numberline {4}Neuronale Maschinen\IeC {\"u}bersetzung}{xvi}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}In der Industrie}{xvi}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}Kuriosit\IeC {\"a}ten}{xvi}{subsection.0.4.2}
+\contentsline {section}{\numberline {5}\textbf {Bewertung}}{xvi}{section.0.5}
 \contentsline {chapter}{Literaturverzeichnis}{3}{section*.3}
+\contentsline {chapter}{Glossar}{5}{section*.5}

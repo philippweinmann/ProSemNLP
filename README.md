@@ -1,8 +1,7 @@
 # ProSemNLP
 Main Latex file: ProSeminarNLP/thesis.tex
 
-compile with: `pdflatex thesis.tex`
+Proseminar maschinelles Lernen im Kontext der Programmierung in natürlicher Sprache.
+Unter Betreuung von Dipl. Informatiker Alexander Wachtel.
 
-`texmaker thesis.tex`
-
-Paper is using an official Kit university template provided by Dipl. Informatiker Alexander Wachtel
+Abgegeben am 08.02.19

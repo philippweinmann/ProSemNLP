@@ -1,5 +1,5 @@
 # ProSemNLP
-Main Latex file: ProSeminarNLP/thesis.tex
+Main Latex file: ProseminarAusarbeitung/thesis.tex
 
 Proseminar maschinelles Lernen im Kontext der Programmierung in natürlicher Sprache.
 Unter Betreuung von Dipl. Informatiker Alexander Wachtel.

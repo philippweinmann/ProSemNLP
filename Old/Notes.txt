@@ -1,9 +1,0 @@
-Proseminar: Programmieren in natürlicher Sprache
-
-Mein Thema: Maschinelles Lernen.
-
-Folien folgen noch per mail.
-
-Links:
-//Generative grammar: Noam Chomsky
-https://www.youtube.com/watch?v=jc2bL1z9Wh4

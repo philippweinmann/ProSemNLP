@@ -1,0 +1,19 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Einleitung}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Anwendungen im Bereich der Informatik}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Maschinelles Lernen: Ein erstes Beispiel}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Aufkommen von Maschinellem Lernen}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}K\IeC {\"u}nstliche Neuronale Netze (\gls {ANN}s)}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Aktivierungsfunktion}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Propagierungsfunktion}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Trainieren eines \gls {ANN}}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Backpropagation}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Fehlerminimierung}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Limitationen und Gefahren von Neuronalen Netzen}{10}{section.2.6}
+\contentsline {chapter}{\numberline {3}Maschinelle \IeC {\"U}bersetzungen (\gls {MT})}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Neuronale Maschinen\IeC {\"u}bersetzung (\gls {NMT})}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Long short-term memory}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Bewertung}{13}{chapter.4}
+\contentsline {chapter}{Literaturverzeichnis}{13}{section*.3}
+\contentsline {chapter}{Glossar}{15}{section*.5}

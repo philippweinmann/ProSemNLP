@@ -1,0 +1,390 @@
+\ifglsentryexists{IA}{}%
+{%
+\gls@defglossaryentry{IA}%
+{%
+name={IA},%
+sort={IA},%
+type={main},%
+first={IA},%
+firstplural={IAs},%
+text={IA},%
+plural={IAs},%
+description={Intelligenter (persönlicher) Assistent},%
+descriptionplural={Intelligenter (persönlicher) Assistent},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{KI}{}%
+{%
+\gls@defglossaryentry{KI}%
+{%
+name={KI},%
+sort={KI},%
+type={main},%
+first={KI},%
+firstplural={KIs},%
+text={KI},%
+plural={KIs},%
+description={Jegliches Programm\, das es einer Maschine erm\"oglicht auf ihre Umwelt zu reagieren.},%
+descriptionplural={Jegliches Programm\, das es einer Maschine erm\"oglicht auf ihre Umwelt zu reagieren.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MaschinellesLernen}{}%
+{%
+\gls@defglossaryentry{MaschinellesLernen}%
+{%
+name={ML},%
+sort={ML},%
+type={main},%
+first={ML},%
+firstplural={MLs},%
+text={ML},%
+plural={MLs},%
+description={Maschinelles Lernen\, künstliche generierung von Wissen aus Erfahrung.},%
+descriptionplural={Maschinelles Lernen\, künstliche generierung von Wissen aus Erfahrung.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ANN}{}%
+{%
+\gls@defglossaryentry{ANN}%
+{%
+name={Artificial Neural Network},%
+sort={Artificial Neural Network},%
+type={main},%
+first={Artificial Neural Network},%
+firstplural={Artificial Neural Networks},%
+text={Artificial Neural Network},%
+plural={Artificial Neural Networks},%
+description={Ein Künstliches Neuronales Netz.},%
+descriptionplural={Ein Künstliches Neuronales Netz.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{FFN}{}%
+{%
+\gls@defglossaryentry{FFN}%
+{%
+name={Feed Forward Network},%
+sort={Feed Forward Network},%
+type={main},%
+first={Feed Forward Network},%
+firstplural={Feed Forward Networks},%
+text={Feed Forward Network},%
+plural={Feed Forward Networks},%
+description={ein Künstliches Neuronales Netz},%
+descriptionplural={ein Künstliches Neuronales Netz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{FCNN}{}%
+{%
+\gls@defglossaryentry{FCNN}%
+{%
+name={Fully connected Neural Network},%
+sort={Fully connected Neural Network},%
+type={main},%
+first={Fully connected Neural Network},%
+firstplural={Fully connected Neural Networks},%
+text={Fully connected Neural Network},%
+plural={Fully connected Neural Networks},%
+description={ein Neuronales Netz\, in dem jede Lage mit der nächsten verbunden ist.},%
+descriptionplural={ein Neuronales Netz\, in dem jede Lage mit der nächsten verbunden ist.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RNN}{}%
+{%
+\gls@defglossaryentry{RNN}%
+{%
+name={Recurrent Neural Network},%
+sort={Recurrent Neural Network},%
+type={main},%
+first={Recurrent Neural Network},%
+firstplural={Recurrent Neural Networks},%
+text={Recurrent Neural Network},%
+plural={Recurrent Neural Networks},%
+description={Neuronales Netz},%
+descriptionplural={Neuronales Netz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{test}{}%
+{%
+\gls@defglossaryentry{test}%
+{%
+name={testosterone},%
+sort={testosterone},%
+type={main},%
+first={testosterone},%
+firstplural={testosterones},%
+text={testosterone},%
+plural={testosterones},%
+description={itworks},%
+descriptionplural={itworks},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MT}{}%
+{%
+\gls@defglossaryentry{MT}%
+{%
+name={MT},%
+sort={MT},%
+type={main},%
+first={MT},%
+firstplural={MTs},%
+text={MT},%
+plural={MTs},%
+description={Machine Translation\, eine automatische Übersetzung von geschriebener oder gesprochener Sprache in eine andere Sprache bzw. Form.},%
+descriptionplural={Machine Translation\, eine automatische Übersetzung von geschriebener oder gesprochener Sprache in eine andere Sprache bzw. Form.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NMT}{}%
+{%
+\gls@defglossaryentry{NMT}%
+{%
+name={NMT},%
+sort={NMT},%
+type={main},%
+first={NMT},%
+firstplural={NMTs},%
+text={NMT},%
+plural={NMTs},%
+description={Neural machine translation\, automatische Übersetzung von geschriebener oder gesprochener Sprache in eine andere Sprache bzw. Form mithilfe von Künstlichen Neuronalen Netzen (ANN).},%
+descriptionplural={Neural machine translation\, automatische Übersetzung von geschriebener oder gesprochener Sprache in eine andere Sprache bzw. Form mithilfe von Künstlichen Neuronalen Netzen (ANN).},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NLP}{}%
+{%
+\gls@defglossaryentry{NLP}%
+{%
+name={NLP},%
+sort={NLP},%
+type={main},%
+first={NLP},%
+firstplural={NLPs},%
+text={NLP},%
+plural={NLPs},%
+description={natural language programming\, Programmieren in natürlicher Sprache\, z.B Deutsch oder Englisch.},%
+descriptionplural={natural language programming\, Programmieren in natürlicher Sprache\, z.B Deutsch oder Englisch.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Backpropagation}{}%
+{%
+\gls@defglossaryentry{Backpropagation}%
+{%
+name={Backpropagation},%
+sort={Backpropagation},%
+type={main},%
+first={Backpropagation},%
+firstplural={Backpropagations},%
+text={Backpropagation},%
+plural={Backpropagations},%
+description={Ein Werkzeug das es ANN ermöglicht zu trainieren. Weights und Biases werden geupdated.},%
+descriptionplural={Ein Werkzeug das es ANN ermöglicht zu trainieren. Weights und Biases werden geupdated.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Tensorflow}{}%
+{%
+\gls@defglossaryentry{Tensorflow}%
+{%
+name={Tensorflow},%
+sort={Tensorflow},%
+type={main},%
+first={Tensorflow},%
+firstplural={Tensorflows},%
+text={Tensorflow},%
+plural={Tensorflows},%
+description={Ein Open Source Framework für ANN von Google.},%
+descriptionplural={Ein Open Source Framework für ANN von Google.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,15 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Einordnung von Maschinellem Lernen}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{K\IeC {\"u}nstliche Neuronale Netze}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Propagierungsfunktion}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Maschinelle \IeC {\"U}bersetzungen}{15}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Kuriosit\IeC {\"a}ten}{16}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Bewertung}{19}{0}{5}
